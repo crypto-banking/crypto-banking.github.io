@@ -1,0 +1,90 @@
+body {
+font-family: Comic Sans MS;
+background-image: url("slike/pozadina.jpg");
+background-position: center;
+  }
+  
+	
+	
+a.home:link, a.home:visited { 
+width:30%; 
+height:14.5%;
+position:absolute; left:0%; top:0%;
+background:rgba(160,160,160,.75);  
+border-radius:60px 0px 60px 0px;
+box-shadow: 20px 10px 20px gray;
+}
+a.home:hover {background-color: rgba(160,160,160,.55)}
+		  
+a.tečaj:link, a.tečaj:visited { 
+		  width:250px; 
+		  height:120px;
+          position:absolute; top:15%; right:0%;
+		  background:rgba(160,160,160,.75);  
+		  border-radius:60px;
+		  font-size:170px;
+		  text-align:center;
+		  text-decoration: none;
+		  box-shadow: 20px 10px 20px grey;
+		  }
+a.tečaj:hover {transform: translateY(4px)}
+
+#prodaj {
+      width: 0px;
+      height: 0px;
+      border-top: 50px solid transparent;
+      border-right: 100px solid rgba(160,160,160,.75);
+      border-bottom: 50px solid transparent;
+	  position:absolute; top:15%; left:43%;
+	  border-radius:20px;
+    }
+#prodaj:hover {transform: translateY(4px)}
+	
+#kupi {
+      width: 0px;
+      height: 0px;
+      border-top: 50px solid transparent;
+      border-left: 100px solid rgba(160,160,160,.75);
+      border-bottom: 50px solid transparent;
+	  position:absolute; top:5%; left:105%;
+	  border-radius:20px
+    }
+#kupi:hover {transform: translateY(4px)}
+	
+#frame1 { 
+
+		  padding-top:15px;       
+		  background:rgba(160,160,160,.75); 
+		  color:black; 
+		  border-radius:20px;
+		  box-shadow: 20px 10px 20px grey;
+		  }
+		  
+#frame2 { 
+
+		  padding-top:15px;
+		  height:21%;     
+		  background:rgba(160,160,160,.75); 
+		  color:black; 
+		  font-size:165%;
+		  border-radius:20px;
+		  box-shadow: 20px 10px 20px grey;
+		  }
+		  
+#frame3 { 
+          width:24%; 
+		  height:22%;
+		  padding-top:15px;
+		  position:absolute; top:80%; left:68%;       
+		  background:rgba(160,160,160,.75); 
+		  color:black; 
+		  font-size:165%;
+		  border-radius:20px;
+		  box-shadow: 20px 10px 20px grey;
+		  }
+		  
+.btcStuff, .ethStuff, .xrpStuff, .btccStuff, .iotaStuff, .ethcStuff, .xmrStuff, .zecStuff, .dashStuff {
+  display: none;
+}
+
+img.slike:hover {transform: translateY(4px)}
